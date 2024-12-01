@@ -1,6 +1,8 @@
+"""Ez a fájl a faktoriális számítását végzi egy adott számra."""
+
 def faktorialis(n):
     """Kiszámítja egy szám faktoriálisát."""
-    if n == 0 or n == 1:
+    if n in (0, 1):
         return 1
     return n * faktorialis(n - 1)
 
@@ -12,5 +14,5 @@ try:
         print(f"A {szam}! értéke: {faktorialis(szam)}")
 except ValueError:
     print("Kérlek, egész számot adj meg!")
-    
+
 #véhge
