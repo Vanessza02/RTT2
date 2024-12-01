@@ -1,3 +1,4 @@
+"""Kiszámítja egy szám faktoriálisát."""
 def faktorialis(n):
     """Kiszámítja egy szám faktoriálisát."""
     if n == 0 or n == 1:
